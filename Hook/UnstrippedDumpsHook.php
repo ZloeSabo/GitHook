@@ -28,8 +28,6 @@ class UnstrippedDumpsHook extends BaseHook implements HookInterface
                     break;
             }
         }
-
-        throw new HookException("OK");
     }
 
     public function type()
