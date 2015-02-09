@@ -1,0 +1,22 @@
+{
+    "name": "zloesabo/githooks",
+    "description": "Git Hooks manager",
+    "type": "composer-plugin",
+    "require": {
+        "php": ">=5.4",
+        "symfony/process": ">=2.3",
+        "symfony/filesystem": ">=2.3",
+        "symfony/finder": ">=2.3",
+        "symfony/console": ">=2.3",
+        "composer-plugin-api": "1.0.0"
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "class": "GitHooks\\Composer\\GitHooksPlugin"
+    },
+    "autoload": {
+        "psr-4": {
+            "GitHooks\\": "./"
+        }
+    }
+}
