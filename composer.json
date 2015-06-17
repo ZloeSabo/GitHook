@@ -8,7 +8,7 @@
         "symfony/filesystem": ">=2.3",
         "symfony/finder": ">=2.3",
         "symfony/console": ">=2.3",
-        "composer-plugin-api": "1.0.0"
+        "composer-plugin-api": "^1.0"
     },
     "minimum-stability": "dev",
     "extra": {
